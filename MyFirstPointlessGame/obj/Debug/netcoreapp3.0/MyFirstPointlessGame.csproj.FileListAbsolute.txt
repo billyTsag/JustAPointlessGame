@@ -1,0 +1,11 @@
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.exe
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.deps.json
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.runtimeconfig.json
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.runtimeconfig.dev.json
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.dll
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\bin\Debug\netcoreapp3.0\MyFirstPointlessGame.pdb
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\obj\Debug\netcoreapp3.0\MyFirstPointlessGame.csprojAssemblyReference.cache
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\obj\Debug\netcoreapp3.0\MyFirstPointlessGame.AssemblyInfoInputs.cache
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\obj\Debug\netcoreapp3.0\MyFirstPointlessGame.AssemblyInfo.cs
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\obj\Debug\netcoreapp3.0\MyFirstPointlessGame.dll
+C:\Users\v.tsagliotis\source\repos\MyFirstPointlessGame\MyFirstPointlessGame\obj\Debug\netcoreapp3.0\MyFirstPointlessGame.pdb
