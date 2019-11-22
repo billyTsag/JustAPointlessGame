@@ -6,7 +6,7 @@ namespace MyFirstPointlessGame
 {
     static class StartGame
     {
-        internal static void AreYouReady(int _left, int _top)
+        internal static void AreYouReady()
         {
             StartingText();
             string input;
@@ -22,7 +22,7 @@ namespace MyFirstPointlessGame
             } while (input != "y" && input != "n");
             Console.Clear();
             Console.CursorVisible = false;
-            Console.SetCursorPosition(_left, _top);
+            Console.SetCursorPosition(0, 0);
         }       
         private static void StartingText() => 
             Console.WriteLine
