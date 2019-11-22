@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,15 +12,35 @@ namespace MyFirstPointlessGame
             switch (movement.Key)
             {
                 case ConsoleKey.LeftArrow:
+                    if (_left == 0)
+                    {
+                        _left = Console.BufferWidth - 1;
+                        break;
+                    }
                     _left--;
                     break;
                 case ConsoleKey.RightArrow:
+                    if (_left == Console.BufferWidth - 1)
+                    {
+                        _left = 0;
+                        break;
+                    }
                     _left++;
                     break;
                 case ConsoleKey.UpArrow:
+                    if (_top == 0)
+                    {
+                        _top = Console.BufferHeight - 1;
+                        break;
+                    }
                     _top--;
                     break;
                 case ConsoleKey.DownArrow:
+                    if (_top == Console.BufferHeight -1)
+                    {
+                        _top = 0;
+                        break;
+                    }
                     _top++;
                     break;
                 case ConsoleKey.Spacebar:
@@ -34,6 +54,6 @@ namespace MyFirstPointlessGame
                     player = movement.KeyChar;
                     break;
             }            
-        }
+        }      
     }    
 }
