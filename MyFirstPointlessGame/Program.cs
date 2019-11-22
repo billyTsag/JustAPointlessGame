@@ -9,7 +9,7 @@ namespace MyFirstPointlessGame
             int _left = 0;
             int _top = 0;
             char player = '*';
-            StartGame.AreYouReady(_left, _top);
+            StartGame.AreYouReady();
             while (true)
             {
                 ConsoleScreen.RefreshScreen(_left, _top, player);
