@@ -8,7 +8,6 @@ namespace MyFirstPointlessGame
     {
         internal static void RefreshScreen(int _left, int _top, char player)
         {
-            Console.Clear();
             Console.SetCursorPosition(_left,_top);
             Console.Write(player);
         }
