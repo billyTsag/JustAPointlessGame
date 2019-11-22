@@ -12,36 +12,16 @@ namespace MyFirstPointlessGame
             switch (movement.Key)
             {
                 case ConsoleKey.LeftArrow:
-                    if (_left == 0)
-                    {
-                        _left = Console.BufferWidth - 1;
-                        break;
-                    }
-                    _left--;
+                    Move_Left(ref _left);
                     break;
                 case ConsoleKey.RightArrow:
-                    if (_left == Console.BufferWidth - 1)
-                    {
-                        _left = 0;
-                        break;
-                    }
-                    _left++;
+                    Move_Right(ref _left);
                     break;
                 case ConsoleKey.UpArrow:
-                    if (_top == 0)
-                    {
-                        _top = Console.BufferHeight - 1;
-                        break;
-                    }
-                    _top--;
+                    Move_Up(ref _top);
                     break;
                 case ConsoleKey.DownArrow:
-                    if (_top == Console.BufferHeight -1)
-                    {
-                        _top = 0;
-                        break;
-                    }
-                    _top++;
+                    Move_Down(ref _top);                    
                     break;
                 case ConsoleKey.Spacebar:
                 case ConsoleKey.Enter:                
@@ -55,5 +35,9 @@ namespace MyFirstPointlessGame
                     break;
             }            
         }      
+        private static void Move_Up(ref int position) => position = position == 0 ? Console.BufferHeight - 1 : --position;           
+        private static void Move_Left(ref int position) => position = position == 0 ? Console.BufferWidth - 1 : --position;        
+        private static void Move_Down(ref int position) => position = position == Console.BufferHeight - 1 ? 0 : ++position;       
+        private static void Move_Right(ref int position) => position = position == Console.BufferWidth - 1 ? 0 : ++position;      
     }    
 }
